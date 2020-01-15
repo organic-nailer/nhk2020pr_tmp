@@ -47,7 +47,7 @@ Serial pc(USBTX, USBRX);
 
 int main()
 {
-  /*
+  
   mecanum.Brake();
   wait(1);
   mecanum.East(50);
@@ -58,7 +58,7 @@ int main()
   wait(1);
   mecanum.South(50);
   wait(1);
-  */
+  
 }
 
 void PickUpFlow() {
